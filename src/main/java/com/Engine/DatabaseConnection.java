@@ -13,7 +13,7 @@ public class DatabaseConnection {
             return connection;
         }
         String user = "root";
-        String pwd = "8abhishek";
+        String pwd = "YOUR password";
         String db = "searchEngineApp";
         return getConnection(user, pwd, db);
     }
